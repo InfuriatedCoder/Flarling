@@ -1,0 +1,322 @@
+{
+	"animation_0": {
+		"name": "animation_0",
+		"sprites": [
+			{
+				"libraryItemName": "star",
+				"animations": {
+					"char_idle": [
+						{
+							"duration": 0.5833333333333333,
+							"label": "easeOutElastic",
+							"angle": 0,
+							"animate": true,
+							"index": 0,
+							"x": -70,
+							"scaleX": 1,
+							"y": 0,
+							"show": 1,
+							"scaleY": 1,
+							"animScaleX": 0.9999968773869473,
+							"blendMode": null,
+							"animScaleY": 0.9999968773869473,
+							"alpha": 1,
+							"animAngle": 1.2640673961289242
+						},
+						{
+							"duration": 0.625,
+							"label": "easeOutElastic",
+							"angle": 1.2640673961289242,
+							"animate": true,
+							"index": 14,
+							"x": -70,
+							"scaleX": 0.9999968773869473,
+							"y": 0,
+							"scaleY": 0.9999968773869473,
+							"animScaleX": 1,
+							"blendMode": null,
+							"animScaleY": 1,
+							"alpha": 1,
+							"animAngle": 0
+						},
+						{
+							"duration": 0.625,
+							"y": 0,
+							"label": "easeOutElastic",
+							"scaleY": 1,
+							"scaleX": 1,
+							"animate": true,
+							"blendMode": "multiply",
+							"index": 29,
+							"alpha": 1,
+							"angle": 0,
+							"x": -70
+						}
+					]
+				}
+			},
+			{
+				"libraryItemName": "rectangles",
+				"animations": {
+					"char_idle": [
+						{
+							"duration": 0.5833333333333333,
+							"animAlpha": 0.171875,
+							"angle": 0,
+							"animate": true,
+							"index": 0,
+							"x": -110.8,
+							"scaleX": 1,
+							"y": -39.05,
+							"show": 1,
+							"scaleY": 1,
+							"animY": -85.05,
+							"animScaleX": 0.6318033768637834,
+							"blendMode": null,
+							"animX": 89.15,
+							"animScaleY": 1.254074563427331,
+							"alpha": 1,
+							"animAngle": -0.3703885877745758
+						},
+						{
+							"animate": true,
+							"animAlpha": 1,
+							"alpha": 0.171875,
+							"duration": 0.625,
+							"angle": -0.3703885877745758,
+							"x": 89.15,
+							"scaleX": 0.6318033768637834,
+							"blendMode": null,
+							"animX": 119.15,
+							"scaleY": 1.254074563427331,
+							"animY": 80.9,
+							"animScaleX": 1,
+							"y": -85.05,
+							"animScaleY": 1,
+							"index": 14,
+							"animAngle": 0
+						},
+						{
+							"animate": true,
+							"alpha": 1,
+							"duration": 0.625,
+							"angle": 0,
+							"x": 119.15,
+							"scaleX": 1,
+							"blendMode": null,
+							"animX": -110.8,
+							"scaleY": 1,
+							"animY": -39.05,
+							"y": 80.9,
+							"index": 29
+						}
+					]
+				}
+			}
+		],
+		"keys": [
+			{
+				"label": "char_idle",
+				"start": 0,
+				"end": 45
+			}
+		]
+	},
+	"animationsNames": [
+		"animation_0",
+		"animation_1"
+	],
+	"animation_1": {
+		"name": "animation_1",
+		"sprites": [
+			{
+				"libraryItemName": "bubbles",
+				"animations": {
+					"walk": [
+						{
+							"duration": 1.0833333333333333,
+							"angle": -1.9025643039746711,
+							"animate": true,
+							"index": 117,
+							"x": -111.5,
+							"scaleX": 0.9999969573645199,
+							"y": -25.05,
+							"show": 1,
+							"scaleY": 0.9999969573645199,
+							"animScaleX": 0.9999871184452573,
+							"blendMode": null,
+							"animScaleY": 0.9999871184452573,
+							"alpha": 1,
+							"animAngle": 2.4208592532520776
+						},
+						{
+							"animate": true,
+							"alpha": 1,
+							"duration": 0.9166666666666666,
+							"angle": 2.4208592532520776,
+							"x": -111.5,
+							"scaleX": 0.9999871184452573,
+							"blendMode": null,
+							"animX": -111.55,
+							"scaleY": 0.9999871184452573,
+							"animY": -25.1,
+							"animScaleX": 0.9990228501930636,
+							"y": -25.05,
+							"animScaleY": 0.9990228501930636,
+							"index": 143,
+							"animAngle": 0.655561525555074
+						},
+						{
+							"animate": true,
+							"alpha": 1,
+							"duration": 0.7916666666666666,
+							"angle": 0.655561525555074,
+							"x": -111.55,
+							"scaleX": 0.9990228501930636,
+							"blendMode": null,
+							"animX": -111.5,
+							"scaleY": 0.9990228501930636,
+							"animY": -25.05,
+							"animScaleX": 0.9999969573645199,
+							"y": -25.1,
+							"animScaleY": 0.9999969573645199,
+							"index": 165,
+							"animAngle": -1.9025643039746711
+						}
+					],
+					"idle": [
+						{
+							"duration": 4.875,
+							"index": 0,
+							"hide": 1
+						}
+					]
+				}
+			},
+			{
+				"libraryItemName": "star",
+				"animations": {
+					"walk": [
+						{
+							"duration": 0.5833333333333333,
+							"y": 33.7,
+							"show": 1,
+							"scaleY": 0.5518138705108151,
+							"scaleX": 0.5407864092797317,
+							"animate": false,
+							"blendMode": null,
+							"index": 117,
+							"alpha": 1,
+							"angle": -0.6584843258678889,
+							"x": 46.65
+						},
+						{
+							"duration": 0.7083333333333333,
+							"label": "easeInOut",
+							"angle": -0.6584843258678889,
+							"animate": true,
+							"index": 131,
+							"x": 18.65,
+							"scaleX": 0.5407864092797317,
+							"y": 40.7,
+							"animX": 7.65,
+							"scaleY": 0.5518138705108151,
+							"animY": 24.5,
+							"blendMode": null,
+							"alpha": 1
+						},
+						{
+							"duration": 0.29166666666666663,
+							"label": "easeInOut",
+							"angle": -0.6584843258678889,
+							"animate": true,
+							"index": 148,
+							"x": 7.65,
+							"scaleX": 0.5407864092797317,
+							"y": 24.5,
+							"animX": 67.65,
+							"scaleY": 0.5518138705108151,
+							"animY": 13.7,
+							"blendMode": null,
+							"alpha": 1
+						},
+						{
+							"scaleX": 0.5407864092797317,
+							"animate": false,
+							"blendMode": null,
+							"scaleY": 0.5518138705108151,
+							"angle": -0.6584843258678889,
+							"duration": 0.41666666666666663,
+							"y": 13.7,
+							"index": 155,
+							"alpha": 1,
+							"x": 67.65
+						},
+						{
+							"duration": 0.8333333333333333,
+							"index": 165,
+							"hide": 1
+						}
+					],
+					"idle": [
+						{
+							"duration": 0.9583333333333333,
+							"y": 33.7,
+							"show": 1,
+							"scaleY": 0.5518138705108151,
+							"scaleX": 0.5407864092797317,
+							"animate": false,
+							"blendMode": null,
+							"index": 0,
+							"alpha": 1,
+							"angle": -0.6584843258678889,
+							"x": 46.65
+						},
+						{
+							"scaleX": 0.3281831895514393,
+							"animate": false,
+							"blendMode": null,
+							"scaleY": 0.3348826464251355,
+							"angle": -0.6584822714452304,
+							"duration": 1.2083333333333333,
+							"y": -21.9,
+							"index": 23,
+							"alpha": 1,
+							"x": 40.35
+						},
+						{
+							"duration": 1.3333333333333333,
+							"index": 52,
+							"hide": 1
+						},
+						{
+							"duration": 1.375,
+							"y": 29.4,
+							"show": 1,
+							"scaleY": 0.5518138705108151,
+							"scaleX": 0.5407864092797317,
+							"animate": false,
+							"blendMode": null,
+							"index": 84,
+							"alpha": 1,
+							"angle": -0.6584843258678889,
+							"x": 70.9
+						}
+					]
+				}
+			}
+		],
+		"keys": [
+			{
+				"label": "idle",
+				"start": 0,
+				"end": 117
+			},
+			{
+				"label": "walk",
+				"start": 117,
+				"end": 185
+			}
+		]
+	}
+}
