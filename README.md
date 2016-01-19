@@ -27,7 +27,7 @@ Flarling requires a specific .fla files which follow the following guidelines:
 - (optional) Drag-and-drop .xml atlases files you will use in your project (if you have any).
 - Drag-and-drop .fla file to be converted. Flarling will convert animations found in this file in into a .json file and save it in the same folder.
 
-![flarling1](infuriatedcoder.github.com/flarling/img/ima1.jpg)
+![flarling1](infuriatedcoder.github.com/flarling/img/img1.jpg)
 
 ## Using Flarling in your project
 - Include flarling.swc in your project.
