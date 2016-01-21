@@ -27,8 +27,9 @@ Flarling requires a specific .fla files which follow the following guidelines:
 - (optional) Drag-and-drop .xml atlases files you will use in your project (if you have any).
 - Drag-and-drop .fla file to be converted. Flarling will convert animations found in this file in into a .json file and save it in the same folder.
 
-![flarling1](https://github.com/InfuriatedCoder/Flarling/blob/master/img/img1.jpg)
 
+On the image below you can see an animation called "animation1" which has two keyframes ("idle" and "walk"). It consists of two images - "bubbles" and "star". Star has a custom pivot point and some of its keyframes have custom easing functions.
+![flarling1](https://github.com/InfuriatedCoder/Flarling/blob/master/img/img.png)
 
 ## Using Flarling in your project
 - Include flarling.swc in your project.
@@ -51,13 +52,13 @@ addChild(animation);
 ```
 
 ## Timing
-Flarling will use your project's FPS so you will see 50 or 60 FPS animations with the same timing. That means, you can have your FLA on the 12 FPS and your mobile project on 60 FPS.
+Flarling will use your project's FPS so you will see 50 or 60 FPS animations with the same timing. That means, you can have your FLA running on 12 FPS and your mobile project running on 60 FPS.
 
 ## Blend modes
 Don't forget to register missing Starling blend modes before adding an animation which is using them.
 
 ## Texture atlas
-You may use the same MovieClips to create a texture atlas to use with Flarling OR use another atlas with the same subTexture names including four zeroes "0000".
+You may use the same MovieClips to create a texture atlas to use with Flarling OR use another atlas with the same subTexture names including four zeroes "0000" suffix.
 
 ## Pivot points
 Starling AssetManager doesn't use pivot points from the atlas by default. To use them, download AssetMan extension class from the repository. Flarling lib detects if the AssetManager had property 'pivots' of class Dictionary and loads pivot points from it.
