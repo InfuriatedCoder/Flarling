@@ -61,4 +61,4 @@ Don't forget to register missing Starling blend modes before adding an animation
 You may use the same MovieClips to create a texture atlas to use with Flarling OR use another atlas with the same subTexture names including four zeroes "0000" suffix.
 
 ## Pivot points
-Starling AssetManager doesn't use pivot points from the atlas by default. To use them, download AssetMan extension class from the repository. Flarling lib detects if the AssetManager had property 'pivots' of class Dictionary and loads pivot points from it.
+Starling AssetManager doesn't use pivot points from the atlas by default. To use them, download AssetMan extension class from the repository. Flarling lib detects if the AssetManager has property 'pivots' of class Dictionary and loads pivot points from it.
