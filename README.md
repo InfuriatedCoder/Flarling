@@ -17,10 +17,10 @@ Flarling requires a specific .fla files which follow the following guidelines:
 ## Guidelines
 
 - Create a .fla file and add the graphic assets you will use in the library (preferably in a separate folder called "assets").
-- Put each graphic assets element in a separate MovieClip and drop these MovieClips into another folder (you may call it 'atlas' if you want to convert them into an atlas later).
-- Create a number of MovieClips (preferably in a separate folder, too), give them names with a prefix "animation": "animation_character", "animation_explosion", etc.
+- Put each graphic assets element in a separate Sprite and drop these sprites into another folder (you may call it 'atlas' if you want to convert them into an atlas later).
+- Create a number of MovieClips (preferably in a separate folder, too).
 - Each animation movieclip should have an empty layer with keyframes labelled as you want ('idle', 'walk', etc.)
-- Place the graphic assets elements from the folder "atlas" on a separate layers of the animation movieclips, one per layer, and animate them. You can use classic tweens to animate objects smoothly. You can give a key frame a label equal to the one of Transitions so the sprite would be animated with a transition function specified. If may also add an empty keyframe to hide an element.
+- Place the graphic assets sprites from the folder "atlas" on a separate layers of the animation movieclips, one per layer, and animate them. You can use classic tweens to animate objects smoothly. You can give a key frame a label equal to the one of Transitions so the sprite would be animated with a transition function specified. If may also add an empty keyframe to hide an element.
 - (optional) right - click the folder "atlas" in the library and generate an atlas.
 - Launch Flarling tool.
 - (optional) Drag-and-drop .atf or .png atlases files you will use in your project (if you have any).
@@ -56,6 +56,25 @@ Flarling will use your project's FPS so you will see 50 or 60 FPS animations wit
 
 ## Blend modes
 Don't forget to register missing Starling blend modes before adding an animation which is using them.
+
+## Transitions supported
+ * easeIn
+ * easeInBack
+ * easeInBounce
+ * easeInElastic
+ * easeInOut
+ * easeInOutBack
+ * easeInOutBounce
+ * easeInOutElastic
+ * easeOut
+ * easeOutBack
+ * easeOutBounce
+ * easeOutElastic
+ * easeOutIn
+ * easeOutInBack
+ * easeOutInBounce
+ * easeOutInElastic
+ * linear
 
 ## Texture atlas
 You may use the same MovieClips to create a texture atlas to use with Flarling OR use another atlas with the same subTexture names including four zeroes "0000" suffix.
