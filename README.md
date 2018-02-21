@@ -1,5 +1,5 @@
 # Flarling
-A Starling animations converter and player
+A Starling 2 animations converter and player
 
 ## Description
 Flarling allows you to export an animation from native Adobe's .FLA file format.
@@ -16,7 +16,7 @@ Flarling requires a specific .fla files which follow the following guidelines:
 
 ## Guidelines
 
-- Create a .fla file and add the graphic assets you will use in the library (preferably in a separate folder called "assets").
+- Create a .fla file and add the graphic assets you will use in the library (preferably in a separate folder called "assets"). FLA files of future versions of Adobe Animate (2018 and later) might not be supported.
 - Put each graphic assets element in a separate Sprite and drop these sprites into another folder (you may call it 'atlas' if you want to convert them into an atlas later).
 - Create a number of MovieClips (preferably in a separate folder, too).
 - Each animation movieclip should have an empty layer with keyframes labelled as you want ('idle', 'walk', etc.)
